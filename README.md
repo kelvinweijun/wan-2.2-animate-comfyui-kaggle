@@ -1,7 +1,7 @@
 # Wan 2.2 Animate 14B ComfyUI on Kaggle
 Contains the notebooks and workflows specifically configured to run inference from Wan 2.2 Animate with ComfyUI on Kaggle T4 GPUs smoothly. There are 3 different types of notebooks and 3 different variants of Kijai's modified workflows. 
 # Prerequisites
-Before running the notebook on Kaggle, there are models and files you may need to install. Below are the specifications and the links to the models:
+Before running the notebook on Kaggle, there are models and files you may need to install. The notebooks will automatically symlink the model files location to the ComfyUI kaggle/working/ComfyUI directory, but you'll need to ensure that the models are placed in the correct kaggle input directory with the exact name mentioned here. Below are the specifications and the links to the models:
 
 ## Models
 ### GGUF Model ` /kaggle/input/wan-animate-q3_k_m-gguf `
