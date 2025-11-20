@@ -20,9 +20,8 @@ This is a fully-automated setup script for running **ComfyUI** on **Kaggle Noteb
 - Full dependency management + numpy constraints
 
 ## System Requirements
-- libgl1
-- libglib2.0-0
-- ffmpeg
+- Kaggle Nvidia 2xT4 GPU (16 GB VRAM)
+- CPU with 32 GB RAM
 
 ## Python Environment
 
