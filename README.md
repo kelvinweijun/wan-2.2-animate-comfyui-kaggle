@@ -1,7 +1,23 @@
 # Wan 2.2 Animate 14B ComfyUI on Kaggle
 Contains the notebooks and workflows specifically configured to run inference from Wan 2.2 Animate with ComfyUI on Kaggle T4 GPUs smoothly. There are 3 different types of notebooks and 3 different variants of Kijai's modified workflows. 
 # Prerequisites
-Before running the notebook on Kaggle, there are models and files you may need to install. Below are the specifications and the links to the dependencies:
+Before running the notebook on Kaggle, there are models and files you may need to install. Below are the specifications and the links to the models:
+
+## ModelS
+- **Wan 2.2 Animate 14B Q3_K_M GGUF** — https://huggingface.co/QuantStack/Wan2.2-Animate-14B-GGUF/blob/main/Wan2.2-Animate-14B-Q3_K_M.gguf
+
+### Text Encoder
+- **UMT5 XXL FP16 Safetensor** — https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/blob/main/split_files/text_encoders/umt5_xxl_fp16.safetensors
+
+### VAE
+- **Wan 2.1 VAE BF16 Safetensor** — https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1_VAE_bf16.safetensors
+
+### LoRAs
+- **Wan Animate Relight LoRA FP16 Safetensor** — https://huggingface.co/Kijai/WanVideo_comfy/blob/main/LoRAs/Wan22_relight/WanAnimate_relight_lora_fp16.safetensors
+- **LightX2V I2V 14B 480p** — https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Lightx2v/lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors
+
+### Clip Vision
+- **Clip Vision Safetensor** — https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/clip_vision
 
 ### Core Plugins
 - **ComfyUI-Manager** — https://github.com/ltdrdata/ComfyUI-Manager.git  
@@ -27,4 +43,3 @@ Before running the notebook on Kaggle, there are models and files you may need t
 - **ComfyUI-Easy-Use** — https://github.com/yolain/ComfyUI-Easy-Use.git  
 - **comfyui-mixlab-nodes** — https://github.com/MixLabPro/comfyui-mixlab-nodes.git  
 
-  
