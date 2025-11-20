@@ -3,7 +3,8 @@ Contains the notebooks and workflows specifically configured to run inference fr
 # Prerequisites
 Before running the notebook on Kaggle, there are models and files you may need to install. Below are the specifications and the links to the models:
 
-## Models ` /kaggle/input/wan-animate-q3_k_m-gguf `
+## Models
+### GGUF Model ` /kaggle/input/wan-animate-q3_k_m-gguf `
 - **Wan 2.2 Animate 14B Q3_K_M GGUF** — https://huggingface.co/QuantStack/Wan2.2-Animate-14B-GGUF/blob/main/Wan2.2-Animate-14B-Q3_K_M.gguf
 
 ### Text Encoder ` /kaggle/input/wan-animate-text-encoder `
@@ -19,7 +20,8 @@ Before running the notebook on Kaggle, there are models and files you may need t
 ### Clip Vision ` /kaggle/input/wan-animate-clip-vision `
 - **Clip Vision Safetensor** — https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/clip_vision
 
-### Core Plugins
+## Custom Nodes
+### Core Plugins  ` /kaggle/input/wan-animate-custom-nodes/custom_nodes `
 - **ComfyUI-Manager** — https://github.com/ltdrdata/ComfyUI-Manager.git  
 - **ComfyUI-GGUF** — https://github.com/city96/ComfyUI-GGUF.git  
 - **ComfyUI-WanVideoWrapper** — https://github.com/kijai/ComfyUI-WanVideoWrapper.git  
