@@ -3,20 +3,20 @@ Contains the notebooks and workflows specifically configured to run inference fr
 # Prerequisites
 Before running the notebook on Kaggle, there are models and files you may need to install. Below are the specifications and the links to the models:
 
-## ModelS
+## Models ` /kaggle/input/wan-animate-q3_k_m-gguf `
 - **Wan 2.2 Animate 14B Q3_K_M GGUF** — https://huggingface.co/QuantStack/Wan2.2-Animate-14B-GGUF/blob/main/Wan2.2-Animate-14B-Q3_K_M.gguf
 
-### Text Encoder
+### Text Encoder ` /kaggle/input/wan-animate-text-encoder `
 - **UMT5 XXL FP16 Safetensor** — https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/blob/main/split_files/text_encoders/umt5_xxl_fp16.safetensors
 
-### VAE
+### VAE ` /kaggle/input/wan-animate-vae `
 - **Wan 2.1 VAE BF16 Safetensor** — https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Wan2_1_VAE_bf16.safetensors
 
-### LoRAs
-- **Wan Animate Relight LoRA FP16 Safetensor** — https://huggingface.co/Kijai/WanVideo_comfy/blob/main/LoRAs/Wan22_relight/WanAnimate_relight_lora_fp16.safetensors
+### LoRAs ` /kaggle/input/wan-animate-loras `
+- **Wan Animate Relight LoRA FP16 Safetensor** — https://huggingface.co/Kijai/WanVideo_comfy/blob/main/LoRAs/Wan22_relight/WanAnimate_relight_lora_fp16.safetensors  
 - **LightX2V I2V 14B 480p** — https://huggingface.co/Kijai/WanVideo_comfy/blob/main/Lightx2v/lightx2v_I2V_14B_480p_cfg_step_distill_rank64_bf16.safetensors
 
-### Clip Vision
+### Clip Vision ` /kaggle/input/wan-animate-clip-vision `
 - **Clip Vision Safetensor** — https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/clip_vision
 
 ### Core Plugins
