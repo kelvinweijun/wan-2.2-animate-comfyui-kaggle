@@ -86,6 +86,8 @@ Manual installation of custom nodes is not needed, but it can skip the git pull 
 - **comfyui-mixlab-nodes** — https://github.com/MixLabPro/comfyui-mixlab-nodes.git  
 
 # Setup
-1. Download the models from the respective links as specified above.
-2. Upload those models as datasets into the respective directories in kaggle input. Make sure the names of the uploads are exactly the same as in their directories specified above
-3. Run the notebook (either in interactive session or Save Version)
+1. Download your preferred notebook from this repository.
+2. Download the models from the respective links as specified above.
+3. Log in to Kaggle and import your notebook. Make sure that the internet and accelerator GPU 2 X T4 is set for your notebook
+4. Upload those models as datasets into the respective directories in kaggle input. Make sure the names of the uploads are exactly the same as in their directories specified above
+5. Run the notebook (either in interactive session or Save Version)
