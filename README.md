@@ -32,7 +32,7 @@ Constraint file:
 `/kaggle/working/constraints.txt`
 
 Environment variable:
-PIP_CONSTRAINT=/kaggle/working/constraints.txt
+` PIP_CONSTRAINT=/kaggle/working/constraints.txt `
 
 ### **Kaggle Runtime**
 - GPU accelerator enabled (T4 or better)
