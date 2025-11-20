@@ -59,6 +59,8 @@ Before running the notebook on Kaggle, there are models and files you may need t
 - **Clip Vision Safetensor** — https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/tree/main/split_files/clip_vision
 
 ## Custom Nodes
+Manual installation of custom nodes is not needed, but it can skip the git pull and installation of them on Kaggle notebook if you upload them to the kaggle input.
+
 ### Core Plugins  ` /kaggle/input/wan-animate-custom-nodes/custom_nodes `
 - **ComfyUI-Manager** — https://github.com/ltdrdata/ComfyUI-Manager.git  
 - **ComfyUI-GGUF** — https://github.com/city96/ComfyUI-GGUF.git  
@@ -83,3 +85,7 @@ Before running the notebook on Kaggle, there are models and files you may need t
 - **ComfyUI-Easy-Use** — https://github.com/yolain/ComfyUI-Easy-Use.git  
 - **comfyui-mixlab-nodes** — https://github.com/MixLabPro/comfyui-mixlab-nodes.git  
 
+# Setup
+1. Download the models from the respective links as specified above.
+2. Upload those models as datasets into the respective directories in kaggle input. Make sure the names of the uploads are exactly the same as in their directories specified above
+3. Run the notebook (either in interactive session or Save Version)
