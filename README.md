@@ -1,5 +1,36 @@
 # Wan 2.2 Animate 14B ComfyUI on Kaggle
 Contains the notebooks and workflows specifically configured to run inference from Wan 2.2 Animate with ComfyUI on Kaggle T4 GPUs smoothly. There are 3 different types of notebooks and 3 different variants of Kijai's modified workflows. 
+
+# ComfyUI Kaggle Environment (CUDA 12.8 / PyTorch 2.9 / Multi-GPU)
+
+This is a fully-automated setup script for running **ComfyUI** on **Kaggle Notebooks** with:
+
+- CUDA **12.8**
+- PyTorch **2.9.0 + cu128**
+- Multi-GPU support
+- ONNXRuntime GPU
+- All required ComfyUI plugins
+- Automatic symbolic linking of models
+- Full dependency management + numpy constraints
+
+## System Requirements
+- libgl1
+- libglib2.0-0
+- ffmpeg
+
+## Python Environment
+
+### **Numpy Constraint**
+numpy<2.0
+Constraint file:
+`/kaggle/working/constraints.txt`
+Environment variable:
+PIP_CONSTRAINT=/kaggle/working/constraints.txt
+
+### **Kaggle Runtime**
+- GPU accelerator enabled (T4 or better)
+- Ubuntu 22.04 container
+
 # Prerequisites
 Before running the notebook on Kaggle, there are models and files you may need to install. The notebooks will automatically symlink the model files locations to the ComfyUI kaggle/working/ComfyUI directory, but you'll need to ensure that the models are placed in the correct kaggle input directory with the exact name mentioned here. Below are the specifications and the links to the models:
 
