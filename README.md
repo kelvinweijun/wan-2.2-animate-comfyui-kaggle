@@ -1,10 +1,13 @@
 # Wan 2.2 Animate 14B ComfyUI on Kaggle
 
-A full notebook that installs and configures all necessary ComfyUI extensions, including Kijai’s WanVideo workflow requirements, control networks, video helper tools, math utilities, and auxiliary node suites. The script also links or copies pre-downloaded model files (GGUF, text encoders, VAEs, LoRAs, and vision modules) directly from Kaggle Datasets while maintaining a clean directory structure compatible with ComfyUI Manager. To support inference at scale, it launches ComfyUI in background mode with automated logging, HTTP health checks, and adaptive VRAM configuration. 
+A full notebook that installs and configures all necessary ComfyUI extensions, including Kijai’s WanVideo workflow requirements, control networks, video helper tools, math utilities, and auxiliary node suites. The script also links or copies pre-downloaded model files (GGUF, text encoders, VAEs, LoRAs, and vision modules) directly from Kaggle Datasets while maintaining a clean directory structure compatible with ComfyUI Manager.
 
-By encapsulating system setup, dependency resolution, plugin installation, and server orchestration into a single executable workflow, this project enables reliable, high-performance generative AI execution on constrained Kaggle infrastructure. The resulting environment provides a turnkey solution for researchers, developers, and artists to run modern diffusion and video models—including Wan2.2 Animate without local GPU resources.
+By encapsulating system setup, dependency resolution, plugin installation, and server orchestration into a single executable workflow, this project enables reliable, optimised generative AI execution on constrained Kaggle infrastructure. The resulting environment provides a turnkey solution for researchers, developers, and artists to run modern diffusion and video models—including Wan2.2 Animate without local GPU resources.
 
-This repository contains the notebooks and workflows specifically configured to run inference from Wan 2.2 Animate with ComfyUI on Kaggle T4 GPUs smoothly. There are 3 different types of notebooks and 3 different variants of Kijai's modified workflows.
+This repository contains the notebooks and workflows specifically configured to run inference from Wan 2.2 Animate with ComfyUI on Kaggle T4 GPUs smoothly. There are 2 different types of notebooks and 3 different variants of Kijai's modified workflows here.
+
+- ` wan-2.2-animate-comfyui.ipynb `: Uses Local Tunnel to expose ComfyUI for accessibility
+- ` wan-2.2-animate-comfyui-gradio.ipynb `: Uses Gradio and ComfyUI API for direct use of the workflow (More stable than Localtunnel, but less flexible in configuration because no direct access to ComfyUI interface)
 
 # ComfyUI Kaggle Environment (CUDA 12.8 / PyTorch 2.9 / Multi-GPU)
 
