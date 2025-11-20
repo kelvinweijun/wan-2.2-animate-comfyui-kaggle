@@ -20,15 +20,17 @@ This is a fully-automated setup script for running **ComfyUI** on **Kaggle Noteb
 - Full dependency management + numpy constraints
 
 ## System Requirements
-- Kaggle Nvidia 2xT4 GPU (16 GB VRAM)
+- Kaggle Nvidia 2 x T4 GPU (16 GB VRAM)
 - CPU with 32 GB RAM
 
 ## Python Environment
 
 ### **Numpy Constraint**
-numpy<2.0
+- numpy<2.0
+
 Constraint file:
 `/kaggle/working/constraints.txt`
+
 Environment variable:
 PIP_CONSTRAINT=/kaggle/working/constraints.txt
 
