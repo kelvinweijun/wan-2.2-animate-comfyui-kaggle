@@ -2,7 +2,7 @@
 
 A full solution that installs and runs Kijai's workflows for Wan 2.2 animate 14B GGUF model in a constrained Kaggle environment. The script also links or copies pre-downloaded model files (GGUF, text encoders, VAEs, LoRAs, and vision modules) directly from Kaggle Datasets while maintaining a clean directory structure compatible with ComfyUI Manager.
 
-This repository contains the notebooks and workflows specifically configured to run inference from Wan 2.2 Animate with ComfyUI on Kaggle T4 GPUs smoothly. There are 2 different types of notebooks and 3 different variants of Kijai's modified workflows here.
+There are 2 different types of notebooks and 3 different variants of Kijai's modified workflows here.
 
 - ` wan-2.2-animate-comfyui.ipynb `: Uses Local Tunnel to expose ComfyUI for accessibility
 - ` wan-2.2-animate-comfyui-gradio.ipynb `: Uses Gradio and ComfyUI API for direct use of the workflow (More stable than Localtunnel, but less flexible in configuration because no direct access to ComfyUI interface)
