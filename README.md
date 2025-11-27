@@ -44,9 +44,10 @@ Before running the notebook on Kaggle, there are models and files you may need t
 ## Models
 Note that wan-2-2-animate-comfyui-gradio.ipynb uses q6_k, and wan-2-2-animate-comfyui.ipynb notebook uses q3_k_m by default. If you prefer to use a different model for a notebook, you have to change the model name in the `link_map` found within code.
 
-### GGUF Model ` /kaggle/input/wan-animate-q3_k_m-gguf `
+### GGUF Model ` /kaggle/input/wan-animate-q3_k_m-gguf ` or ` /kaggle/input/wan-animate-q6_k-gguf `
 - **Wan 2.2 Animate 14B Q3_K_M GGUF** — https://huggingface.co/QuantStack/Wan2.2-Animate-14B-GGUF/blob/main/Wan2.2-Animate-14B-Q3_K_M.gguf
-
+- **Wan 2.2 Animate 14B Q6_K GGUF** — https://huggingface.co/QuantStack/Wan2.2-Animate-14B-GGUF/blob/main/Wan2.2-Animate-14B-Q6_K.gguf
+- 
 ### Text Encoder ` /kaggle/input/wan-animate-text-encoder `
 - **UMT5 XXL FP16 Safetensor** — https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/blob/main/split_files/text_encoders/umt5_xxl_fp16.safetensors
 
