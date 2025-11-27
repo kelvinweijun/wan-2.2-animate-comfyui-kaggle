@@ -4,8 +4,8 @@ A full solution that installs and runs Kijai's workflows for Wan 2.2 animate 14B
 
 There are 2 different types of notebooks and 3 different variants of Kijai's modified workflows here.
 
-- ` wan-2.2-animate-comfyui.ipynb `: Uses Local Tunnel to expose ComfyUI for accessibility
-- ` wan-2.2-animate-comfyui-gradio.ipynb `: Uses Gradio and ComfyUI API for direct use of the workflow (More stable than Localtunnel, but less flexible in configuration because no direct access to ComfyUI interface)
+- ` wan-2-2-animate-comfyui.ipynb `: Uses Local Tunnel to expose ComfyUI for accessibility
+- ` wan-2-2-animate-comfyui-gradio.ipynb `: Uses Gradio and ComfyUI API for direct use of the workflow (More stable than Localtunnel, but less flexible in configuration because no direct access to ComfyUI interface)
 
 # ComfyUI Kaggle Environment (CUDA 12.8 / PyTorch 2.9 / Multi-GPU)
 
