@@ -42,7 +42,7 @@ Environment variable:
 Before running the notebook on Kaggle, there are models and files you may need to install. The notebooks will automatically symlink the model files locations to the ComfyUI kaggle/working/ComfyUI directory, but you'll need to ensure that the models are placed in the correct kaggle input directory with the exact name mentioned here. Below are the specifications and the links to the models:
 
 ## Models
-Note that wan-2-2-animate-comfyui-gradio.ipynb uses q6_k, and wan-2-2-animate-comfyui.ipynb notebook uses q3_k_m by default. If you prefer to use a different model for a notebook, you have to change the model name in the 'link_map' found within code.
+Note that wan-2-2-animate-comfyui-gradio.ipynb uses q6_k, and wan-2-2-animate-comfyui.ipynb notebook uses q3_k_m by default. If you prefer to use a different model for a notebook, you have to change the model name in the `link_map` found within code.
 
 ### GGUF Model ` /kaggle/input/wan-animate-q3_k_m-gguf `
 - **Wan 2.2 Animate 14B Q3_K_M GGUF** — https://huggingface.co/QuantStack/Wan2.2-Animate-14B-GGUF/blob/main/Wan2.2-Animate-14B-Q3_K_M.gguf
