@@ -9,7 +9,7 @@ There are 2 different types of notebooks and 3 different variants of Kijai's mod
 
 ## Update (11/11/2026)
 
-- `wan-2-2-animate-gguf-comfyui-gradio-autodownload-fixed.ipynb` is the latest gradio-based notebook that automatically downloads the required models and prerequisites. Bug fixes have been applied. Tested to work since 11/11/2026.
+- `wan-2-2-animate-gguf-comfyui-gradio-autodownload-fixed.ipynb` is the latest gradio-based notebook that automatically downloads the required models and prerequisites. Bug fixes have been applied. Tested to work end-to-end since 11/11/2026.
 
 # ComfyUI Kaggle Environment (CUDA 12.8 / PyTorch 2.9 / Multi-GPU)
 
